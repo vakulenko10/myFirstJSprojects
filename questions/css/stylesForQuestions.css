@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.questions{
+    background-image: url('https://wallpaperswide.com/download/big_windows_apartment-wallpaper-1920x1080.jpg');
+    background-position:top; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    margin: 0 auto;
+    width: 1422px;
+    min-height: 100vh;
+    height: 100%;
+}
+.title{
+    font-size: 30px;
+    text-transform: capitalize;
+    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 100px; */
+}
+.section-center{
+    /* display: flex;
+    align-items: center;  */
+    /* margin-top: 20px; */
+    width:fit-content;
+    flex-direction: column;  
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.question{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    /* flex-direction: column;  */
+    width: 500px;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px black;
+}
+.question-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    
+}
+.question-title p{
+    margin: 0 20px 0 0;
+}
+.question-btn{
+    border: none;
+    font-size: 30px;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.plus-icon{
+    display: block;
+}
+.minus-icon{
+    display: none;
+}
+.show-text .plus-icon{
+    display: none;
+}
+.show-text .minus-icon{
+    display: block;
+}
+.qst-answer{
+    display: none;
+}
+.qst-answer p{
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+.horizontal-line{
+    width: 75%;
+    
+    height: 1px;
+    background-color: #8d8d8d;
+}
+.show-text .qst-answer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

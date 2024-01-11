@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#home{
+    width: 100%;
+    background-image: url('https://i.insider.com/612f93e612b9cc001963a665?width=1000&format=jpeg&auto=webp');   
+    background-repeat: none;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    top: 0;
+    left: 0;    
+    
+}
+#nav{
+    background-color: #ff5252;
+    /* position: absolute; */
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav-header{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav-header img{
+    width: 50px;
+}
+.nav-toggle{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+.links{
+    list-style: none;
+
+}
+.links-container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: none;
+}
+.scroll-link{
+    text-decoration: none;
+    text-transform: none;
+    color: #000;
+}
+.container{
+    
+    margin:  calc(50% - 10px) auto;
+    /* margin-top: 100px; */
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+}
+.container h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.container p {
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+@media (min-width: 701px){
+    
+}

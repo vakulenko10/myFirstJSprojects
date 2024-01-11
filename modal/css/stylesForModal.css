@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    height: 100vh;
+} */
+body{
+
+    background-image: url('https://www.thespruce.com/thmb/OMS0eVJPjPaxvJ7wvvDDmlsJ8RQ=/5472x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-9611272321-5c5e4c42c9e77c0001662104.jpg');
+    /* background-position: fixed; */
+    /* background-position-x: center;
+    background-position: center; */
+    /* position: relative; */
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+   
+}
+header{
+
+}
+.hero{
+    position: absolute;
+    top: 50%;
+    left:calc(50% - 200px);
+}
+
+.banner{
+    width: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    box-shadow: 0 0 20px ;
+    background-color: #fff;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    align-items: center;
+    z-index: 10;
+}
+.banner-not-active{
+    display: none;
+}
+.banner h1{
+    margin-bottom: 15px;
+}
+.btn.modal-btn{
+    /* width: 100px; */
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 4px 10px;
+}
+.modal-btn{
+    background-color: transparent;
+    /* border-radius: 200px; */
+    padding: 5px;
+    border: none;
+}
+.modal-btn i {
+    color: red;
+    font-size: 50px;
+    transition: .3s linear;
+}
+.modal-btn i:hover{
+    color: rgb(255, 86, 86);
+    /* font-size: 60px; */
+}
+.modal-overlay{
+    position: fixed ;
+    width: 100%;
+    height: 100%;
+    background-color: #000000a9;
+    display: none;
+}
+.modal-container{
+    position: absolute;
+    top: 10%;
+    left: calc(50% - 200px);
+    width: 400px;
+    height: 200px;
+    z-index: 100;
+    display: flex;
+    padding: 25px 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.modal-active{
+    display: block;
+}
